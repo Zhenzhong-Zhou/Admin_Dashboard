@@ -1,5 +1,6 @@
 import {NavBar, SideBar} from "./components";
 import "./App.css";
+import {Home} from "./pages";
 
 const App = () => {
 	return (
@@ -7,9 +8,7 @@ const App = () => {
 			<NavBar/>
 			<div className={"container"}>
 				<SideBar/>
-				<div className={"others"}>
-					other pages
-				</div>
+				<Home/>
 			</div>
 		</>
 	);
