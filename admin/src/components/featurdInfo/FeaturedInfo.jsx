@@ -1,6 +1,5 @@
 import "./styles.css";
-import {Cost, Revenue, Sale} from "./index";
-
+import {Cost, Revenue, Sale} from "../index";
 
 const FeaturedInfo = () => {
 	return (
