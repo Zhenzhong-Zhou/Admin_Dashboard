@@ -1,3 +1,5 @@
+import user from "./assets/images/user2.png";
+
 export const userData = [
 	{
 		month: 'Jan',
@@ -47,4 +49,17 @@ export const userData = [
 		month: 'Dec',
 		"Active User": 6000
 	},
+];
+
+export const userRows = [
+	{ id: 1, username: 'Jon Snow', avatar: user, email: "jon@gamil.com", status: "active", transaction: "$120.00"},
+	{ id: 2, username: 'Jon Snow', avatar: user, email: "jon@gamil.com", status: "active", transaction: "$120.00"},
+	{ id: 3, username: 'Jon Snow', avatar: user, email: "jon@gamil.com", status: "active", transaction: "$120.00"},
+	{ id: 4, username: 'Jon Snow', avatar: user, email: "jon@gamil.com", status: "active", transaction: "$120.00"},
+	{ id: 5, username: 'Jon Snow', avatar: user, email: "jon@gamil.com", status: "active", transaction: "$120.00"},
+	{ id: 6, username: 'Jon Snow', avatar: user, email: "jon@gamil.com", status: "active", transaction: "$120.00"},
+	{ id: 7, username: 'Jon Snow', avatar: user, email: "jon@gamil.com", status: "active", transaction: "$120.00"},
+	{ id: 8, username: 'Jon Snow', avatar: user, email: "jon@gamil.com", status: "active", transaction: "$120.00"},
+	{ id: 9, username: 'Jon Snow', avatar: user, email: "jon@gamil.com", status: "active", transaction: "$120.00"},
+	{ id: 10, username: 'Jon Snow', avatar: user, email: "jon@gamil.com", status: "active", transaction: "$120.00"},
 ];
