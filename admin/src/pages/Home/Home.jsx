@@ -1,5 +1,5 @@
 import "./styles.css";
-import {Chart, FeaturedInfo} from "../../components";
+import {Chart, FeaturedInfo, WidgetLg, WidgetSm} from "../../components";
 import {userData} from "../../boilerplateData";
 
 const Home = () => {
@@ -7,6 +7,10 @@ const Home = () => {
 		<div className={"home"}>
 			<FeaturedInfo/>
 			<Chart data={userData} title={"User Analytics"} grid dataKey={"Active User"}/>
+			<div className={"homeWidgets"}>
+				<WidgetSm/>
+				<WidgetLg/>
+			</div>
 		</div>
 	);
 };

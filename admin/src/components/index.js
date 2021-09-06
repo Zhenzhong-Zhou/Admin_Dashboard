@@ -9,3 +9,5 @@ export {default as Revenue} from "./FeaturdInfo/FeaturedItem/Revenue";
 export {default as Sale} from "./FeaturdInfo/FeaturedItem/Sale";
 export {default as Cost} from "./FeaturdInfo/FeaturedItem/Cost";
 export {default as Chart} from "./Chart/Chart";
+export {default as WidgetSm} from "./Widget/WidgetSm/WidgetSm";
+export {default as WidgetLg} from "./Widget/WidgetLg/WidgetLg";
