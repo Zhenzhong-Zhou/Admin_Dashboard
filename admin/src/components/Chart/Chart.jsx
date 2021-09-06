@@ -1,4 +1,4 @@
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import "./styles.css";
 
 const Chart = ({title, data, dataKey, grid}) => {
@@ -12,7 +12,6 @@ const Chart = ({title, data, dataKey, grid}) => {
 					<YAxis dataKey={""}/>
 					<Tooltip/>
 					{grid && <CartesianGrid stroke={"#e0dfdf"} strokeDasharray={"5 5"}/>}
-					<Legend/>
 				</LineChart>
 			</ResponsiveContainer>
 		</div>
