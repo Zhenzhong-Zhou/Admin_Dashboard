@@ -1,5 +1,5 @@
-import "./styles.css";
 import {LineStyle, Timeline, TrendingUp} from "@material-ui/icons";
+import "./styles.css";
 
 const Dashboard = () => {
 	return (
