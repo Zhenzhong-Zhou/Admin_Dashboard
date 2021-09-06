@@ -4,6 +4,7 @@ export {default as Dashboard} from "./SideBar/sidebarMenu/Dashboard";
 export {default as Quick} from "./SideBar/sidebarMenu/Quick";
 export {default as Notification} from "./SideBar/sidebarMenu/Notification";
 export {default as Staff} from "./SideBar/sidebarMenu/Staff";
+export {default as FeaturedInfo} from "./featurdInfo/FeaturedInfo";
 export {default as Revenue} from "./featurdInfo/FeaturedItem/Revenue";
 export {default as Sale} from "./featurdInfo/FeaturedItem/Sale";
 export {default as Cost} from "./featurdInfo/FeaturedItem/Cost";

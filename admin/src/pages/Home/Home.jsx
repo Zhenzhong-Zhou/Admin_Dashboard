@@ -1,5 +1,5 @@
 import "./styles.css";
-import FeaturedInfo from "../../components/featurdInfo/FeaturedInfo";
+import {FeaturedInfo} from "../../components";
 
 const Home = () => {
 	return (
