@@ -1,5 +1,5 @@
-import "./styles.css";
 import {AttachMoney, BarChart, PermIdentity, Storefront} from "@material-ui/icons";
+import "./styles.css";
 
 const Quick = () => {
 	return (

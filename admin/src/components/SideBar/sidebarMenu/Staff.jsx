@@ -1,5 +1,5 @@
-import "./styles.css";
 import {Report, Timeline, WorkOutline} from "@material-ui/icons";
+import "./styles.css";
 
 const Staff = () => {
 	return (

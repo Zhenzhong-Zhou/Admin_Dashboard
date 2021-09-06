@@ -1,5 +1,5 @@
-import "./styles.css";
 import {ChatBubbleOutline, DynamicFeed, MailOutline} from "@material-ui/icons";
+import "./styles.css";
 
 
 const Notification = () => {
