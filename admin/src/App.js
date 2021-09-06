@@ -1,4 +1,5 @@
 import {NavBar, SideBar} from "./components";
+import "./App.css";
 
 const App = () => {
 	return (
@@ -6,7 +7,9 @@ const App = () => {
 			<NavBar/>
 			<div className={"container"}>
 				<SideBar/>
-				other pages
+				<div className={"others"}>
+					other pages
+				</div>
 			</div>
 		</>
 	);

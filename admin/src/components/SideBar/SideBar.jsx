@@ -1,9 +1,15 @@
 import "./styles.css";
+import {Dashboard, Notification, Quick, Staff} from "../index";
 
 const SideBar = () => {
 	return (
-		<div>
-			SideBar
+		<div className={"sidebar"}>
+			<div className={"sidebarWrapper"}>
+				<Dashboard/>
+				<Quick/>
+				<Notification/>
+				<Staff/>
+			</div>
 		</div>
 	);
 };
