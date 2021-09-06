@@ -1,16 +1,24 @@
 import {NavBar, SideBar} from "./components";
 import "./App.css";
-import {Home} from "./pages";
+import {Home, UserList} from "./pages";
+import {BrowserRouter, Route, Switch} from "react-router-dom";
 
 const App = () => {
 	return (
-		<>
+		<BrowserRouter>
 			<NavBar/>
 			<div className={"container"}>
 				<SideBar/>
-				<Home/>
+				<Switch>
+					<Route exact path={"/"}>
+						<Home/>
+					</Route>
+					<Route exact path={"/users"}>
+						<UserList/>
+					</Route>
+				</Switch>
 			</div>
-		</>
+		</BrowserRouter>
 	);
 };
 
