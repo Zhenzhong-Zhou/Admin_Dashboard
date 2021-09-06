@@ -8,3 +8,4 @@ export {default as FeaturedInfo} from "./featurdInfo/FeaturedInfo";
 export {default as Revenue} from "./featurdInfo/FeaturedItem/Revenue";
 export {default as Sale} from "./featurdInfo/FeaturedItem/Sale";
 export {default as Cost} from "./featurdInfo/FeaturedItem/Cost";
+export {default as Chart} from "./Chart/Chart";

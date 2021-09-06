@@ -1,10 +1,12 @@
 import "./styles.css";
-import {FeaturedInfo} from "../../components";
+import {Chart, FeaturedInfo} from "../../components";
+import {userData} from "../../boilerplateData";
 
 const Home = () => {
 	return (
 		<div className={"home"}>
 			<FeaturedInfo/>
+			<Chart data={userData} title={"User Analytics"} grid dataKey={"Active User"}/>
 		</div>
 	);
 };
