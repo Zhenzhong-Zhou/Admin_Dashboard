@@ -77,3 +77,9 @@ export const productRows = [
 	{ id: 9, name: "Apple Airpods", image: airpods, stock: 123, status: "active", price: "$120.00"},
 	{ id: 10, name: "Apple Airpods", image: airpods, stock: 123, status: "active", price: "$120.00"},
 ];
+
+export const productData = [
+	{ month: 'Jan', "Sales": 4000 },
+	{ month: 'Feb', "Sales": 1000 },
+	{ month: 'Mar', "Sales": 3000 },
+];
