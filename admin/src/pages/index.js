@@ -6,3 +6,4 @@ export {default as UserUpdateForm} from "./User/UserUpdateForm/UserUpdateForm";
 export {default as NewUser} from "./NewUser/NewUser";
 export {default as NewUserForm} from "./NewUser/NewUserForm/NewUserForm";
 export {default as ProductList} from "./ProductList/ProductList";
+export {default as Product} from "./Product/Product";

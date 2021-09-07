@@ -1,7 +1,7 @@
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import {NavBar, SideBar} from "./components";
 import "./App.css";
-import {Home, NewUser, ProductList, User, UserList} from "./pages";
+import {Home, NewUser, Product, ProductList, User, UserList} from "./pages";
 
 const App = () => {
 	return (
@@ -26,7 +26,7 @@ const App = () => {
 						<ProductList/>
 					</Route>
 					<Route exact path={"/product/:productId"}>
-
+						<Product/>
 					</Route>
 					<Route exact path={"/newProduct"}>
 
