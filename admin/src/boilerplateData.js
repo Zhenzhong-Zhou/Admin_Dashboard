@@ -1,4 +1,5 @@
 import user from "./assets/images/user2.png";
+import airpods from "./assets/images/airpods.jpeg";
 
 export const userData = [
 	{
@@ -61,5 +62,18 @@ export const userRows = [
 	{ id: 7, username: 'Jon Snow', avatar: user, email: "jon@gamil.com", status: "active", transaction: "$120.00"},
 	{ id: 8, username: 'Jon Snow', avatar: user, email: "jon@gamil.com", status: "active", transaction: "$120.00"},
 	{ id: 9, username: 'Jon Snow', avatar: user, email: "jon@gamil.com", status: "active", transaction: "$120.00"},
-	{ id: 10, username: 'Jon Snow', avatar: user, email: "jon@gamil.com", status: "active", transaction: "$120.00"},
+	{ id: 10, username: 'Jon Snow', avatarimage: user, email: "jon@gamil.com", status: "active", transaction: "$120.00"},
+];
+
+export const productRows = [
+	{ id: 1, name: 'Apple Airpods', image: airpods, stock: 123, status: "active", price: "$120.00"},
+	{ id: 2, name: "Apple Airpods", image: airpods, stock: 123, status: "active", price: "$120.00"},
+	{ id: 3, name: "Apple Airpods", image: airpods, stock: 123, status: "active", price: "$120.00"},
+	{ id: 4, name: "Apple Airpods", image: airpods, stock: 123, status: "active", price: "$120.00"},
+	{ id: 5, name: "Apple Airpods", image: airpods, stock: 123, status: "active", price: "$120.00"},
+	{ id: 6, name: "Apple Airpods", image: airpods, stock: 123, status: "active", price: "$120.00"},
+	{ id: 7, name: "Apple Airpods", image: airpods, stock: 123, status: "active", price: "$120.00"},
+	{ id: 8, name: "Apple Airpods", image: airpods, stock: 123, status: "active", price: "$120.00"},
+	{ id: 9, name: "Apple Airpods", image: airpods, stock: 123, status: "active", price: "$120.00"},
+	{ id: 10, name: "Apple Airpods", image: airpods, stock: 123, status: "active", price: "$120.00"},
 ];
