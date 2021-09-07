@@ -1,6 +1,6 @@
 import {NavBar, SideBar} from "./components";
 import "./App.css";
-import {Home, User, UserList} from "./pages";
+import {Home, NewUser, User, UserList} from "./pages";
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 
 const App = () => {
@@ -18,6 +18,9 @@ const App = () => {
 					</Route>
 					<Route exact path={"/user/:userId"}>
 						<User/>
+					</Route>
+					<Route exact path={"/newUser"}>
+						<NewUser/>
 					</Route>
 				</Switch>
 			</div>
