@@ -1,7 +1,7 @@
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import {NavBar, SideBar} from "./components";
 import "./App.css";
-import {Home, NewUser, Product, ProductList, User, UserList} from "./pages";
+import {Home, NewProduct, NewUser, Product, ProductList, User, UserList} from "./pages";
 
 const App = () => {
 	return (
@@ -29,7 +29,7 @@ const App = () => {
 						<Product/>
 					</Route>
 					<Route exact path={"/newProduct"}>
-
+						<NewProduct/>
 					</Route>
 				</Switch>
 			</div>
