@@ -3,7 +3,7 @@ import "./styles.css";
 const newUser = () => {
 	return (
 		<div className={"newUser"}>
-			New User
+			<h1 className={"newUserTitle"}>New User</h1>
 		</div>
 	);
 };
