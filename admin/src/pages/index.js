@@ -5,3 +5,4 @@ export {default as UserDisplayBottom} from "./User/UserDispayBottom/UserDisplayB
 export {default as UserUpdateForm} from "./User/UserUpdateForm/UserUpdateForm";
 export {default as NewUser} from "./NewUser/NewUser";
 export {default as NewUserForm} from "./NewUser/NewUserForm/NewUserForm";
+export {default as ProductList} from "./ProductList/ProductList";

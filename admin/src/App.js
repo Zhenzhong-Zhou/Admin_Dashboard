@@ -1,7 +1,7 @@
+import {BrowserRouter, Route, Switch} from "react-router-dom";
 import {NavBar, SideBar} from "./components";
 import "./App.css";
-import {Home, NewUser, User, UserList} from "./pages";
-import {BrowserRouter, Route, Switch} from "react-router-dom";
+import {Home, NewUser, ProductList, User, UserList} from "./pages";
 
 const App = () => {
 	return (
@@ -21,6 +21,15 @@ const App = () => {
 					</Route>
 					<Route exact path={"/newUser"}>
 						<NewUser/>
+					</Route>
+					<Route exact path={"/products"}>
+						<ProductList/>
+					</Route>
+					<Route exact path={"/product/:productId"}>
+
+					</Route>
+					<Route exact path={"/newProduct"}>
+
 					</Route>
 				</Switch>
 			</div>
